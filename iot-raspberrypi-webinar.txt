@@ -1,0 +1,35 @@
+I wanted to control an LED/Device from a remote area
+  assuming that Device - Mumbai, and User - Hyderabad.
+
+Here the user and Device are far-away, there not in a network. But, 
+  they were connected through Internet.
+
+WhatsApp - How whatsapp will work?
+User1 - United States - Internet
+User2 - Hyderabad (India) - Internet
+
+Can they be communicated or not?
+Device - Internet
+User - Internet
+
+Device (pub) -> User (sub)
+User (pub) -> Device (sub) 
+
+How do they get communicated?
+MQTT - Message Queue Telemetry Transport
+
+1. Publisher - pub - Sender - Sending Message
+2. Subscriber - sub - Receiver - Receiving Message
+3. Broker - Global Server (Cloud) - Connectivity
+4. Topic - Identity of a end-module (user, device) - Group Name 
+
+user (pub) - ledon - Broker - ledon - device (sub) 
+
+Broker - open-source Brokers - broker.hivemq.com, 1883
+Group Name - iot/webinar
+
+
+
+
+
+
